@@ -1,0 +1,69 @@
+body {
+  background-color: #eee;
+}
+
+.text-gold {color: #ffd700;}
+.bg-gold {background-color: #ffd700;}
+
+.site-navbar .social-links {
+  background-color: #ffd700;
+}
+
+
+/* section.site-hero .carousel-inner .item-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5),  rgba(0, 0, 0, 0.5)), url('../images/site-images/hero-1.jpg');
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+} */
+
+section.site-main-content .enrollment {
+  margin-left: -17px;
+  margin-top: -17px;
+  padding: 5px;
+  background-color: #ffd700;
+  width: 150px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+section.site-main-content img.enrollment-stripe {
+  position: absolute;
+  margin-top: -8px;
+  width: calc(100% - 1.8rem);
+}
+section.site-main-content .personnel-organization-chart {
+  margin-left: -17px;
+  margin-top: -17px;
+  padding: 5px;
+  background-color: #ffd700;
+  width: 300px;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+}
+section.site-main-content img.personnel-organization-chart  {
+  position: absolute;
+  margin-top: -8px;
+  width: calc(100% - 1.8rem);
+}
+
+#chart-container {
+  font-family: Arial;
+  height: 420px;
+  border: 2px dashed #aaa;
+  border-radius: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.orgchart { background: white; }
+
+#github-link {
+  position: fixed;
+  top: 0px;
+  right: 10px;
+  font-size: 3em;
+}
